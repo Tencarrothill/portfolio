@@ -16,7 +16,7 @@ html, body {
 /* 홈페이지의 넓이 제한, 가운데 정렬 기능을 수행함 .*/
 /* 홈페이지 전체를 감싸는 요소 - 가로 스크롤 바가 생겼을 때 배경이 짤리는 현상을 막음 */
 #wrap {
-    min-width: 1260px;
+    min-width: 1300px;
     overflow: hidden;
 }
 .wrapper {
@@ -26,9 +26,6 @@ html, body {
 /* 1260px 나의 wrapper의 사이즈에 좌우 여백 20px씩 더한 사이즈가 1300px임. 이 사이즈부터 반응형을
 하겠다는 선언임. */
 @media screen and (max-width:1300px) {
-    #wrap {
-        min-width: 100%; 
-    }
     .wrapper {
         /* 너비가 빠져야함 */
         width: 1260px;
