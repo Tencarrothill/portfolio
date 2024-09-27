@@ -1,0 +1,16 @@
+@import "__variable.scss";
+@import "__default.scss";
+@import "__common.scss";
+@import "__fonts.scss";
+
+header {
+    h1 {
+        font-size: 50px;
+        font-weight: 800;
+        color: #1d1d1d;
+    }
+}
+
+//&::before
+//@include default_bg;
+//color: $main-color;
